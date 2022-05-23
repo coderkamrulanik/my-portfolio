@@ -17,14 +17,12 @@ body {
     margin-left: 5%;
 }
 
-img {
-    height: 400px;
-    width: 400px;
+.firstIMG {
+    width: 80%;
 }
 
-.half-width img {
+.secondIMG {
     width: 80%;
-    height: 80%;
 }
 
 .top-banner {
@@ -33,5 +31,63 @@ img {
 }
 
 section {
-    height: 500px;
+    height: 600px;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(lightSalmon, tomato);
+    margin-top: 25px;
+}
+
+.about {
+    color: dimgray;
+}
+
+.dream-area {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.one-third-width {
+    width: 26%;
+    float: left;
+    margin-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    height: 50%;
+}
+
+.duration {
+    color: rgb(252, 99, 11);
+}
+
+.education {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#bachelor {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#hsc {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(143, 187, 239), rgb(47, 86, 245));
+    border-image-slice: 1;
+}
+
+#ssc {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(242, 237, 101), rgb(255, 200, 0));
+    border-image-slice: 1;
 }
