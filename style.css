@@ -1,0 +1,37 @@
+h1 {
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#nameColor {
+    color: rgb(252, 99, 11);
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+.half-width img {
+    width: 80%;
+    height: 80%;
+}
+
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    height: 500px;
+}
